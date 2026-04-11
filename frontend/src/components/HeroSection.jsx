@@ -67,7 +67,7 @@ const HeroSection = () => {
               <Button
                 size="lg"
                 className="bg-navy hover:bg-navy/90 text-white rounded-full px-8 py-6 text-lg btn-primary"
-                onClick={() => window.open('https://calendly.com', '_blank')}
+                onClick={() => window.open('https://calendly.com/arpan-gsc-bist/30min?month=2026-04', '_blank')}
                 data-testid="hero-cta-demo"
               >
                 Book a Free Demo

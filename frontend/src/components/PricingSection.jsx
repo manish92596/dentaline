@@ -145,7 +145,7 @@ const PricingSection = () => {
                     ? 'bg-dental-blue hover:bg-dental-blue/90 text-white'
                     : 'bg-navy hover:bg-navy/90 text-white'
                 }`}
-                onClick={() => window.open('https://calendly.com', '_blank')}
+                onClick={() => window.open('https://calendly.com/arpan-gsc-bist/30min?month=2026-04', '_blank')}
                 data-testid={`pricing-cta-${plan.name.toLowerCase()}`}
               >
                 Start Free Trial

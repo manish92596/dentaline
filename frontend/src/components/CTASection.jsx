@@ -31,7 +31,7 @@ const CTASection = () => {
             <Button
               size="lg"
               className="bg-dental-blue hover:bg-dental-blue/90 text-white rounded-full px-8 py-6 text-lg group"
-              onClick={() => window.open('https://calendly.com', '_blank')}
+              onClick={() => window.open('https://calendly.com/arpan-gsc-bist/30min?month=2026-04', '_blank')}
               data-testid="cta-demo-btn"
             >
               Book Your Free Demo

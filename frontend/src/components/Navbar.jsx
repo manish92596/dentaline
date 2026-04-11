@@ -62,7 +62,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center gap-4">
             <Button
               className="bg-navy hover:bg-navy/90 text-white rounded-full px-6"
-              onClick={() => window.open('https://calendly.com', '_blank')}
+              onClick={() => window.open('https://calendly.com/arpan-gsc-bist/30min?month=2026-04', '_blank')}
               data-testid="nav-cta-btn"
             >
               Book a Demo
@@ -101,7 +101,7 @@ const Navbar = () => {
             <div className="pt-4 px-4">
               <Button
                 className="w-full bg-navy hover:bg-navy/90 text-white rounded-full"
-                onClick={() => window.open('https://calendly.com', '_blank')}
+                onClick={() => window.open('https://calendly.com/arpan-gsc-bist/30min?month=2026-04', '_blank')}
               >
                 Book a Demo
               </Button>
