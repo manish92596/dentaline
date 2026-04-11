@@ -13,7 +13,7 @@ const PricingSection = () => {
     {
       name: 'Starter',
       description: 'Perfect for small practices',
-      monthlyPrice: 199,
+      monthlyPrice: 99,
       features: [
         'Up to 500 calls/month',
         'Basic appointment booking',
@@ -27,7 +27,7 @@ const PricingSection = () => {
     {
       name: 'Growth',
       description: 'Most popular for growing clinics',
-      monthlyPrice: 399,
+      monthlyPrice: 199,
       features: [
         'Up to 2,000 calls/month',
         'Advanced booking & rescheduling',
