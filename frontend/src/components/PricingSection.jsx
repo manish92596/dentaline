@@ -43,7 +43,6 @@ const PricingSection = () => {
     {
       name: 'Enterprise',
       description: 'For multi-location practices',
-      monthlyPrice: 799,
       features: [
         'Unlimited calls',
         'All Growth features',
@@ -131,12 +130,20 @@ const PricingSection = () => {
               </p>
 
               <div className="mb-6">
-                <span className={`font-serif text-4xl ${plan.highlighted ? 'text-white' : 'text-navy'}`}>
-                  ${getPrice(plan.monthlyPrice)}
-                </span>
-                <span className={`text-sm ${plan.highlighted ? 'text-white/70' : 'text-navy/60'}`}>
-                  /month
-                </span>
+                {plan.monthlyPrice ? (
+                  <>
+                    <span className={`font-serif text-4xl ${plan.highlighted ? 'text-white' : 'text-navy'}`}>
+                      ${getPrice(plan.monthlyPrice)}
+                    </span>
+                    <span className={`text-sm ${plan.highlighted ? 'text-white/70' : 'text-navy/60'}`}>
+                      /month
+                    </span>
+                  </>
+                ) : (
+                  <span className={`font-serif text-3xl ${plan.highlighted ? 'text-white' : 'text-navy'}`}>
+                    Speak to us
+                  </span>
+                )}
               </div>
 
               <Button
@@ -148,7 +155,7 @@ const PricingSection = () => {
                 onClick={() => window.open('https://calendly.com/arpan-gsc-bist/30min?month=2026-04', '_blank')}
                 data-testid={`pricing-cta-${plan.name.toLowerCase()}`}
               >
-                Start Free Trial
+                {plan.monthlyPrice ? 'Start Free Trial' : 'Speak to us'}
               </Button>
 
               <ul className="space-y-3">
