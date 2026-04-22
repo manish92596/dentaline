@@ -50,15 +50,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-white/60 text-sm">
                 <Phone className="w-4 h-4" />
-                <span>1-800-DENTALINE</span>
+                <span>+1 (416) 666-1715</span>
               </div>
               <div className="flex items-center gap-3 text-white/60 text-sm">
                 <Mail className="w-4 h-4" />
-                <span>hello@dentaline.ai</span>
+                <span>info@techladder.ai</span>
               </div>
               <div className="flex items-center gap-3 text-white/60 text-sm">
                 <MapPin className="w-4 h-4" />
-                <span>San Francisco, CA</span>
+                <span>7345 W Sand Lake Road, Orlando, Florida 32819, US</span>
               </div>
             </div>
           </div>
