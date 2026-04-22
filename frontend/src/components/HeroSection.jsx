@@ -129,7 +129,7 @@ const HeroSection = () => {
             <motion.div
               animate={{ y: [0, -10, 0] }}
               transition={{ duration: 3, repeat: Infinity }}
-              className="absolute -top-4 -right-4 bg-dental-blue text-white px-4 py-2 rounded-full text-sm font-medium shadow-lg"
+              className="absolute -top-4 -right-2 md:-right-4 bg-dental-blue text-white px-4 py-2 rounded-full text-sm font-medium shadow-lg"
             >
               24/7 Active
             </motion.div>
@@ -137,7 +137,7 @@ const HeroSection = () => {
             <motion.div
               animate={{ y: [0, 10, 0] }}
               transition={{ duration: 2.5, repeat: Infinity }}
-              className="absolute -bottom-4 -left-4 bg-mint-green text-navy px-4 py-2 rounded-full text-sm font-medium shadow-lg"
+              className="absolute -bottom-4 -left-2 md:-left-4 bg-mint-green text-navy px-4 py-2 rounded-full text-sm font-medium shadow-lg"
             >
               98% Satisfaction
             </motion.div>

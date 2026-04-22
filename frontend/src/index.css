@@ -51,9 +51,10 @@ code {
   }
 }
 
-/* Smooth scrolling */
-html {
+/* Smooth scrolling & fix horizontal wobble */
+html, body {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /* Custom scrollbar */
