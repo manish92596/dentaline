@@ -19,7 +19,7 @@ const IntegrationsSection = () => {
   ];
 
   return (
-    <section ref={ref} id="integrations" className="py-20 md:py-24 px-4 bg-mint-green/50" data-testid="integrations-section">
+    <section ref={ref} id="integrations" className="py-20 md:py-24 px-4 bg-mint-green/50 scroll-mt-24 md:scroll-mt-32" data-testid="integrations-section">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -73,7 +73,7 @@ const IntegrationsSection = () => {
           className="text-center mt-8"
         >
           <p className="text-navy/50 text-sm">
-            + 20 more integrations available. Don't see yours? <a href="#faq" className="text-dental-blue hover:underline">Contact us</a>
+            + 20 more integrations available. Don't see yours? <a href="/#faq" className="text-dental-blue hover:underline">Contact us</a>
           </p>
         </motion.div>
       </div>

@@ -10,8 +10,10 @@ import IntegrationsSection from "./components/IntegrationsSection";
 import FAQSection from "./components/FAQSection";
 import CTASection from "./components/CTASection";
 import Footer from "./components/Footer";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
+import TermsOfServicePage from "./pages/TermsOfServicePage";
 
-function App() {
+function HomePage() {
   return (
     <div className="App font-sans bg-ivory text-navy min-h-screen overflow-x-hidden flex flex-col w-full">
       <Navbar />
@@ -29,6 +31,28 @@ function App() {
       <Footer />
     </div>
   );
+}
+
+function getPathname() {
+  if (typeof window === "undefined") {
+    return "/";
+  }
+
+  return window.location.pathname.replace(/\/+$/, "") || "/";
+}
+
+function App() {
+  const pathname = getPathname();
+
+  if (pathname === "/privacy-policy") {
+    return <PrivacyPolicyPage />;
+  }
+
+  if (pathname === "/terms-of-service") {
+    return <TermsOfServicePage />;
+  }
+
+  return <HomePage />;
 }
 
 export default App;

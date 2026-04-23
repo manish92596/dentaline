@@ -39,7 +39,7 @@ const FAQSection = () => {
   ];
 
   return (
-    <section ref={ref} id="faq" className="py-20 md:py-32 px-4 bg-white" data-testid="faq-section">
+    <section ref={ref} id="faq" className="py-20 md:py-32 px-4 bg-white scroll-mt-24 md:scroll-mt-32" data-testid="faq-section">
       <div className="max-w-3xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

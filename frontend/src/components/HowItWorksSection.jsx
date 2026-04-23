@@ -28,7 +28,7 @@ const HowItWorksSection = () => {
   ];
 
   return (
-    <section ref={ref} id="how-it-works" className="py-20 md:py-32 px-4 bg-ivory" data-testid="how-it-works-section">
+    <section ref={ref} id="how-it-works" className="py-20 md:py-32 px-4 bg-ivory scroll-mt-24 md:scroll-mt-32" data-testid="how-it-works-section">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

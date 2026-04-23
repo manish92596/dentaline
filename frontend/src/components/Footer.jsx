@@ -3,22 +3,14 @@ import { Phone, Mail, MapPin } from 'lucide-react';
 const Footer = () => {
   const footerLinks = {
     Product: [
-      { name: 'Features', href: '#features' },
-      { name: 'Pricing', href: '#pricing' },
-      { name: 'Integrations', href: '#integrations' },
-      { name: 'FAQ', href: '#faq' },
-    ],
-    Company: [
-      { name: 'About Us', href: '#' },
-      { name: 'Blog', href: '#' },
-      { name: 'Careers', href: '#' },
-      { name: 'Contact', href: '#' },
+      { name: 'Features', href: '/#features' },
+      { name: 'Pricing', href: '/#pricing' },
+      { name: 'Integrations', href: '/#integrations' },
+      { name: 'FAQ', href: '/#faq' },
     ],
     Legal: [
-      { name: 'Privacy Policy', href: '#' },
-      { name: 'Terms of Service', href: '#' },
-      { name: 'HIPAA Notice', href: '#' },
-      { name: 'BAA Request', href: '#' },
+      { name: 'Privacy Policy', href: '/privacy-policy' },
+      { name: 'Terms of Service', href: '/terms-of-service' },
     ],
   };
 
@@ -31,7 +23,7 @@ const Footer = () => {
   return (
     <footer className="bg-navy text-white py-16 px-4" data-testid="footer">
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">

@@ -65,7 +65,7 @@ const PricingSection = () => {
   };
 
   return (
-    <section ref={ref} id="pricing" className="py-20 md:py-32 px-4 bg-white" data-testid="pricing-section">
+    <section ref={ref} id="pricing" className="py-20 md:py-32 px-4 bg-white scroll-mt-24 md:scroll-mt-32" data-testid="pricing-section">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

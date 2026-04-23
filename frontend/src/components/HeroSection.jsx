@@ -43,7 +43,7 @@ const HeroSection = () => {
   ];
 
   return (
-    <section className="relative min-h-screen pt-24 md:pt-32 pb-16 px-4 overflow-hidden" data-testid="hero-section">
+    <section id="hero" className="relative min-h-screen pt-24 md:pt-32 pb-16 px-4 overflow-hidden scroll-mt-24 md:scroll-mt-32" data-testid="hero-section">
       {/* Background decoration */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-mint-green/30 rounded-bl-[100px] -z-10" />
       
